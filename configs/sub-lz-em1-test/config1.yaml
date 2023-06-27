@@ -1,0 +1,32 @@
+---
+Type: "resource_groups"
+subscription_id: "3befa025-49e1-4dbf-bb61-f5db42b1s14c8"
+subscription_name: "sandbox"
+resource_groups:
+
+- name: "resource_group1"
+  owner: "vimal.vijayan@essity.com"
+  environment: "dev"
+  location: "westeurope"
+  tags:
+  - owner: "vimal"
+  - createdBy: "terraform"
+  - userstory: "12243"
+
+- name: "resource_group2"
+  owner: "vimal.vijayan@essity.com"
+  location: "westeurope"
+  environment: "dev"
+  tags:
+  - owner: "vimal"
+  - createdBy: "terraform"
+  - userstory: "12243"
+
+- name: "resource_group3"
+  owner: "vimal.vijayan@essity.com"
+  location: "westeurope"
+  environment: "dev"
+  tags:
+  - owner: "vimal"
+  - createdBy: "terraform"
+  - userstory: "12243"
