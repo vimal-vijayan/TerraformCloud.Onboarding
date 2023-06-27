@@ -23,7 +23,7 @@ resource "tfe_workspace" "workspaces" {
   auto_apply            = true
   file_triggers_enabled = true
   queue_all_runs        = false
-  trigger_patterns      = ["/config/${data.azurerm_subscription.subscriptions[each.value].display_name}/*.json"]
+  trigger_patterns      = ["/config/${data.azurerm_subscription.subscriptions[each.value].display_name}/*.yaml"]
 
   vcs_repo {
     identifier         = local.terraform_cloud.project_url
