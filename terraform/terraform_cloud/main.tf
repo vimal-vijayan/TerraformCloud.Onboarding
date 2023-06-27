@@ -27,7 +27,7 @@ resource "tfe_workspace" "workspaces" {
 
   vcs_repo {
     identifier         = local.terraform_cloud.project_url
-    branch             = "development"
+    branch             = "main"
     oauth_token_id     = local.terraform_cloud.oauth_token_id
     ingress_submodules = true
   }
