@@ -30,3 +30,12 @@ resource_groups:
   - owner: "vimal"
   - createdBy: "terraform"
   - userstory: "12243"
+
+- name: "resource_group2"
+  owner: "vimal.vijayan@essity.com"
+  location: "westeurope"
+  environment: "prod"
+  tags:
+  - owner: "vimal"
+  - createdBy: "terraform"
+  - userstory: "12243"
